@@ -35,6 +35,7 @@ def push_pull(user_input):
 						del work_frames[0]
 			except:
 				pass
+		pen.update_tag(refresh = {'TIME'})
 	print(f'{" End! ":=^40}\n\n')
 
 
